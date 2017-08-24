@@ -1,0 +1,13 @@
+/* 
+    ./client/index.js
+*/
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { HashRouter } from 'react-router-dom'
+import App from './views/App.jsx';
+
+ReactDOM.render((
+	<HashRouter>
+		<App />
+	</HashRouter>
+), document.getElementById('root'));
